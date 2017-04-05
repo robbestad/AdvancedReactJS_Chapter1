@@ -1,0 +1,63 @@
+{
+  "name": "Advanced_ReactJs_Chapter1",
+  "version": "1.0.0",
+  "description": "Code for Advanced ReactJS Chapter 1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svenanders/AdvancedReactJS_Chapter1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "rimraf public",
+    "start": "cross-env NODE_ENV=production webpack -p --config webpack-production.config.js",
+    "poststart": "cross-env DEBUG=http NODE_ENV=production node server-production.js",
+    "predev": "rimraf build",
+    "dev": "NODE_ENV=development node server-development.js"
+  },
+  "author": {
+    "name": "Sven Anders Robbestad",
+    "email": "sven@robbestad.com",
+    "url": "https://www.robbestad.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "connect-history-api-fallback": "^1.3.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.0",
+    "debug": "^2.6.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "history": "^4.6.1",
+    "html-webpack-plugin": "^2.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-history": "^0.18.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "^4.0.0",
+    "react-router-redux": "^5.0.0-alpha.4",
+    "react-transform-catch-errors": "^1.0.1",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.2.0",
+    "redux": "^3.6.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.18.0"
+  },
+  "dependencies": {
+    "compression": "^1.6.1",
+    "cross-env": "^4.0.0",
+    "express": "^4.15.2",
+    "express-error-handler": "^1.0.1",
+    "rimraf": "^2.5.1",
+    "serve-static": "^1.10.3"
+  }
+}
