@@ -24,6 +24,10 @@ app.use(devMiddleware(compiler, {
   },
   hot: true,
   lazy: false,
+	watchOptions: {
+		aggregateTimeout: 500,
+		poll: 500
+	},
   historyApiFallback: true,
   headers: { "Access-Control-Allow-Origin": "*" }
 }))
