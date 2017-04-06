@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint source  --ext=.js,.jsx --fix",
-    "prettier": "prettier --single-quote --bracket-spacing=true --print-width=50 jsxBracketSameLine=true tabWidth=2 source/**/*.js --write",
+    "prettier": "prettier --single-quote --bracket-spacing=true --print-width=50 jsxBracketSameLine=true tabWidth=2 source/**/*.js* --write",
     "prestart": "rimraf public",
     "start": "cross-env NODE_ENV=production webpack -p --config webpack-production.config.js",
     "poststart": "cross-env DEBUG=http NODE_ENV=production node server-production.js",
