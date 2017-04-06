@@ -11,8 +11,14 @@ const debug = require('debug');
 app.use(compression());
 
 app.get("*", (req, res) => {
-  debug('http')(req.path)
-  res.sendFile(path.join(__dirname, "public", req.path));
+	debug('http')(req.path)
+
+	if (req.path === "/") {
+		debug('http')("sending index.html")
+		res.sendFile(path.join(__dirname, "public", "index.html"));
+	} else {
+		res.sendFile(path.join(__dirname, "public", req.path));
+	}
 })
 
 server = http.createServer(app);
@@ -20,5 +26,5 @@ server = http.createServer(app);
 app.use(errorHandler({server}));
 
 app.listen(port, host, () => {
-  debug('http')(`Server started at http://${host}:${port}`);
+	debug('http')(`Server started at http://${host}:${port}`);
 });
