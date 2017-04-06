@@ -27,7 +27,11 @@ module.exports = {
     }),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
-        warnings: false
+	      unused: true,
+	      dead_code: true,
+	      drop_console: true,
+	      drop_debugger: true,
+	      warnings: false,
       }
     }),
     new HtmlWebpackPlugin({
@@ -56,7 +60,7 @@ module.exports = {
         query: {
           presets: [
             'react',
-            ['es2015', {modules: false}]
+            ['es2015', {loose: true, modules: false}]
           ],
           plugins: [
           ]
