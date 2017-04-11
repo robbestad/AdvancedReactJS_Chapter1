@@ -1085,6 +1085,12 @@ commander@2.9.x, commander@^2.9.0:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
+common-tags@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.4.0.tgz#1187be4f3d4cf0c0427d43f74eef1f73501614c0"
+  dependencies:
+    babel-runtime "^6.18.0"
+
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -1216,6 +1222,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
   dependencies:
     create-hash "^1.1.0"
     inherits "^2.0.1"
+
+create-react-class@^15.5.1:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.5.2.tgz#6a8758348df660b88326a0e764d569f274aad681"
+  dependencies:
+    fbjs "^0.8.9"
+    object-assign "^4.1.1"
 
 cross-env@^4.0.0:
   version "4.0.0"
@@ -1461,6 +1474,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
+dlv@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.0.tgz#fee1a7c43f63be75f3f679e85262da5f102764a7"
+
 doctrine@^1.2.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
@@ -1534,8 +1551,8 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.2.7:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.2.tgz#b8ce5c93b308db0e92f6d0435c46ddec8f6363ab"
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.3.tgz#651eb63fe89f39db70ffc8dbd5d9b66958bc6a0e"
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -1685,10 +1702,13 @@ escope@^3.6.0:
     estraverse "^4.1.1"
 
 eslint-config-acando@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-acando/-/eslint-config-acando-1.1.4.tgz#55f9ff2ef89736d073a550a46dd6ddaa50a92cbe"
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-acando/-/eslint-config-acando-1.1.5.tgz#a4fdb402bf1b39652c28ab86231bd297b927ff36"
   dependencies:
     eslint "^3.19.0"
+    eslint-plugin-prettier "^2.0.1"
+    prettier "^0.22.0"
+    prettier-eslint "^4.4.0"
 
 eslint-plugin-prettier@^2.0.1:
   version "2.0.1"
@@ -1706,7 +1726,7 @@ eslint-plugin-react@^6.10.3:
     jsx-ast-utils "^1.3.4"
     object.assign "^4.0.4"
 
-eslint@^3.19.0:
+eslint@^3.17.0, eslint@^3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
   dependencies:
@@ -2016,8 +2036,8 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
 
 form-data@~2.1.1:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.1.2.tgz#89c3534008b97eada4cbb157d58f6f5df025eae4"
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.1.4.tgz#33c183acf193276ecaa98143a69e94bfee1750d1"
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.5"
@@ -2239,8 +2259,8 @@ history@^4.5.0, history@^4.5.1, history@^4.6.0, history@^4.6.1:
     warning "^3.0.0"
 
 hmac-drbg@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.0.tgz#3db471f45aae4a994a0688322171f51b8b91bee5"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   dependencies:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
@@ -2274,8 +2294,8 @@ html-entities@^1.2.0:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.0.tgz#41948caf85ce82fed36e4e6a0ed371a6664379e2"
 
 html-minifier@^3.2.3:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/html-minifier/-/html-minifier-3.4.2.tgz#31896baaf735c1d95f7a0b7291f9dc36c0720752"
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/html-minifier/-/html-minifier-3.4.3.tgz#eb3a7297c804611f470454eeebe0aacc427e424a"
   dependencies:
     camel-case "3.0.x"
     clean-css "4.0.x"
@@ -2284,7 +2304,7 @@ html-minifier@^3.2.3:
     ncname "1.0.x"
     param-case "2.1.x"
     relateurl "0.2.x"
-    uglify-js "2.8.x"
+    uglify-js "~2.8.22"
 
 html-webpack-plugin@^2.28.0:
   version "2.28.0"
@@ -2362,7 +2382,7 @@ indent-string@^2.1.0:
   dependencies:
     repeating "^2.0.0"
 
-indent-string@^3.0.0:
+indent-string@^3.0.0, indent-string@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.1.0.tgz#08ff4334603388399b329e6b9538dc7a3cf5de7d"
 
@@ -2876,6 +2896,10 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
+lodash.merge@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
@@ -2896,6 +2920,17 @@ log-update@^1.0.2:
   dependencies:
     ansi-escapes "^1.0.0"
     cli-cursor "^1.0.2"
+
+loglevel-colored-level-prefix@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/loglevel-colored-level-prefix/-/loglevel-colored-level-prefix-1.0.0.tgz#6a40218fdc7ae15fc76c3d0f3e676c465388603e"
+  dependencies:
+    chalk "^1.1.3"
+    loglevel "^1.4.1"
+
+loglevel@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.4.1.tgz#95b383f91a3c2756fd4ab093667e4309161f2bcd"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3199,7 +3234,7 @@ oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -3658,6 +3693,20 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
+prettier-eslint@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-4.4.0.tgz#ded965da6a4d32bef72bfff992afbee0c0cf0443"
+  dependencies:
+    common-tags "^1.4.0"
+    dlv "^1.1.0"
+    eslint "^3.17.0"
+    indent-string "^3.1.0"
+    lodash.merge "^4.6.0"
+    loglevel-colored-level-prefix "^1.0.0"
+    prettier "^0.22.0"
+    pretty-format "^19.0.0"
+    require-relative "^0.8.7"
+
 prettier@^0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-0.22.0.tgz#7b37c4480d0858180407e5a8e13f0f47da7385d2"
@@ -3712,9 +3761,9 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.2, prop-types@~15.5.0:
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.4.tgz#2ed3692716a5060f8cc020946d8238e7419d92c0"
+prop-types@^15.0.0, prop-types@^15.5.2, prop-types@^15.5.4, prop-types@~15.5.0:
+  version "15.5.6"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.6.tgz#797a915b1714b645ebb7c5d6cc690346205bd2aa"
   dependencies:
     fbjs "^0.8.9"
 
@@ -3846,14 +3895,16 @@ react-proxy@^3.0.0-alpha.0:
     lodash "^4.6.1"
 
 react-redux@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.3.tgz#86c3b68d56e74294a42e2a740ab66117ef6c019f"
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.4.tgz#1563babadcfb2672f57f9ceaa439fb16bf85d55b"
   dependencies:
+    create-react-class "^15.5.1"
     hoist-non-react-statics "^1.0.3"
     invariant "^2.0.0"
     lodash "^4.2.0"
     lodash-es "^4.2.0"
     loose-envify "^1.1.0"
+    prop-types "^15.0.0"
 
 react-router-dom@^4.0.0:
   version "4.0.0"
@@ -3924,8 +3975,8 @@ readable-stream@1.0:
     string_decoder "~0.10.x"
 
 "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6:
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.8.tgz#ad28b686f3554c73d39bc32347fa058356624705"
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.9.tgz#cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8"
   dependencies:
     buffer-shims "~1.0.0"
     core-util-is "~1.0.0"
@@ -3959,11 +4010,12 @@ rechoir@^0.6.2:
     resolve "^1.1.6"
 
 redbox-react@^1.2.0, redbox-react@^1.2.2, redbox-react@^1.2.5:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/redbox-react/-/redbox-react-1.3.4.tgz#3d882bb62cc7c8f6256279d12f05c6a5a96d24c6"
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/redbox-react/-/redbox-react-1.3.6.tgz#70314c57c066257eb70b0a24dc794b5cef4f1c4e"
   dependencies:
     error-stack-parser "^1.3.6"
     object-assign "^4.0.1"
+    prop-types "^15.5.4"
 
 reduce-css-calc@^1.2.6:
   version "1.3.0"
@@ -4107,6 +4159,10 @@ require-from-string@^1.1.0:
 require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
+
+require-relative@^0.8.7:
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
 
 require-uncached@^1.0.2:
   version "1.0.3"
@@ -4565,9 +4621,9 @@ ua-parser-js@^0.7.9:
   version "0.7.12"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
-uglify-js@2.8.x, uglify-js@^2.8.5:
-  version "2.8.21"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.21.tgz#1733f669ae6f82fc90c7b25ec0f5c783ee375314"
+uglify-js@^2.8.5, uglify-js@~2.8.22:
+  version "2.8.22"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.22.tgz#d54934778a8da14903fa29a326fb24c0ab51a1a0"
   dependencies:
     source-map "~0.5.1"
     yargs "~3.10.0"
